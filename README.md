@@ -17,4 +17,16 @@ You'll be working with data provided by the United States Social Security Admini
 | `sex`          | varchar | `sex` of babies given `first_name`                                       |
 | `num`          | int     | number of babies of `sex` given `first_name` in that `year`              |
 
+1/ Top 5 baby name 
+
+    select first_name, SUM(num) as top_5_baby_name
+    from   glass-standard-378403.Baby_trend_name.usa_baby_names
+    group by first_name
+    order by sum(num) desc
+    limit 5
+    
+![image](https://github.com/user-attachments/assets/0524a950-006c-43f1-8f1f-871568a8161c)
+
+
+
 
