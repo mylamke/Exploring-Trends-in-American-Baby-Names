@@ -7,7 +7,7 @@ How have American baby name tastes changed since 1920? Which names have remained
 You'll be working with data provided by the United States Social Security Administration, which lists first names along with the number and sex of babies they were given to in each year. For processing speed purposes, the dataset is limited to first names which were given to over 5,000 American babies in a given year. The data spans 101 years, from 1920 through 2020.
 
 ## The Data
-
+    
 ### `baby_names`
 
 | column         | type    | description                                                                  |
